@@ -12,9 +12,12 @@ The DAG:
 * Saves timestamps of the tasks into S3 
 
 DAG graph:
-
 ![DAG_graph](assets/DAG_graph.png)
 
 MLflow metrics of all models:
+![MLflow_metrics](assets/MLflow_metrics.png)
 
 Metadata of one of the models - HistGB:
+![MLflow_HistGB_artifacts](assets/MLflow_HistGB_artifacts.png)
+
+Code for the DAG is available [here]()
