@@ -20,4 +20,4 @@ MLflow metrics of all models:
 Metadata of one of the models - HistGB:
 ![MLflow_HistGB_artifacts](assets/MLflow_HistGB_artifacts.png)
 
-Code for the DAG is available [here]()
+Code for the DAG is available [here](mlops_final.py).
