@@ -185,10 +185,9 @@ def save_results(**kwargs) -> None:
     task_instance = kwargs['ti']
     dag_kwargs = task_instance.xcom_pull(task_ids=[f'train_{model_alias}' for model_alias in models.keys()])
     
-    #we need to transfer kwargs to another dict or it will fail
     metrics = {}
-    for metric in dag_kwargs:
-        metrics.update(metrics)
+    for metric, value in dag_kwargs.items():
+        metrics[metrics] = value
     
     metrics['dag_end'] = datetime.now().strftime(DATETIME_FORMAT)
     
