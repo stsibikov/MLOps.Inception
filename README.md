@@ -1,4 +1,4 @@
-# Intro to MLOps
+# MLOps with Airflow and MLflow
 
 Final work for the [MLOps.Inception](https://stepik.org/course/181476/syllabus) course, provided by HSE university.
 
